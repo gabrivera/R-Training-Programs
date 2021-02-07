@@ -1,3 +1,7 @@
+# This function converts column names from Excel's alphabet-based index to
+# numbers. However, this implementation works only with 'two-digit' indexes.
+# This particular version is a single function.
+
 colnameToNumber <- function(colname) {
     
     # Make sure colname is a lower-case!
