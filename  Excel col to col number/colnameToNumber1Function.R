@@ -7,7 +7,7 @@ colnameToNumber <- function(colname) {
     # Make sure colname is a lower-case!
     colname = tolower(colname)
     
-    # Create all the letters
+    # Create two digits of the letters
     allTheLetters = letters
     for (j in letters){
         for (i in letters) {
